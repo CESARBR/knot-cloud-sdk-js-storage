@@ -6,9 +6,7 @@ function throwError(message) {
   throw error;
 }
 
-function extractSettings({
-  hostname, port, protocol, id, token, pathname,
-}) {
+function extractSettings({ hostname, port, protocol, id, token, pathname }) {
   const defaultProtocol = 'https';
   const defaultPort = 443;
 
@@ -31,7 +29,11 @@ function extractSettings({
 
 function buildUri(protocol, hostname, port, pathname, query) {
   return url.format({
-    protocol, hostname, port, pathname, query,
+    protocol,
+    hostname,
+    port,
+    pathname,
+    query,
   });
 }
 
@@ -46,7 +48,7 @@ class Storage {
       this.options.hostname,
       this.options.port,
       `${this.options.pathname}/data`,
-      query,
+      query
     );
     const headers = {
       auth_id: this.options.id,
@@ -67,7 +69,7 @@ class Storage {
       this.options.hostname,
       this.options.port,
       `${this.options.pathname}/data/${id}`,
-      query,
+      query
     );
     const headers = {
       auth_id: this.options.id,
@@ -88,7 +90,7 @@ class Storage {
       this.options.hostname,
       this.options.port,
       `${this.options.pathname}/data/${deviceId}/sensor/${sensorId}`,
-      query,
+      query
     );
     const headers = {
       auth_id: this.options.id,
