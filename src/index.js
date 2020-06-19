@@ -1,3 +1,3 @@
-import Storage from 'Storage';
+import Storage from './Storage';
 
 export default Storage;
