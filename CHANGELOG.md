@@ -1,3 +1,9 @@
+ # [1.0.3](https://github.com/CESARBR/knot-cloud-sdk-js-storage/compare/v1.0.2...v1.0.3)
+
+ ### Bug Fixes
+
+- Fix list data when filtering by things
+
  # [1.0.2](https://github.com/CESARBR/knot-cloud-sdk-js-storage/compare/v1.0.1...v1.0.2)
 
  ### Documentation
