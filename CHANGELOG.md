@@ -1,4 +1,11 @@
- # [1.0.3](https://github.com/CESARBR/knot-cloud-sdk-js-storage/compare/v1.0.2...v1.0.3)
+ 
+# [1.0.4](https://github.com/CESARBR/knot-cloud-sdk-js-storage/compare/v1.0.3...v1.0.4)
+
+ ### Bug Fixes
+
+- Fix vulnerability issues
+
+# [1.0.3](https://github.com/CESARBR/knot-cloud-sdk-js-storage/compare/v1.0.2...v1.0.3)
 
  ### Bug Fixes
 
